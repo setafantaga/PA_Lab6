@@ -38,3 +38,49 @@ You may use either Swing or JavaFX.
 –Rich GUI components, fancy
 
 –Modern, new features added with new version
+
+# The MainFrame class
+```python
+```
+
+# The ConfigPanel class
+In the MainFrame class, create an instance of this class, and add it in NORTH
+```python
+```
+
+# The ControlPanel class
+In the MainFrame class, create an instance of this class, and add it in SOUTH
+```python
+```
+
+# The DrawingPanel class
+In the MainFrame class, create an instance of this class, and add it in SOUTH.
+
+We use direct drawing into an offscreen Image.
+```python
+```
+
+# The RegularPolygon class
+```python
+```
+
+# Create other Shapes
+```python
+```
+
+# Direct vs. Retained Drawing
+
+# Direct mode (like in Paint)
+  –We store the drawing using a single image
+  
+  –Individual Shapes are lost
+  
+  –paintComponent simply draws the image
+
+# Retained mode (like in PhotoShop)
+  –We store ALL Shapes in a data structure
+  
+  –List<Shape> shapes
+  
+  –paintComponent draws all the shapes, one by one
+
